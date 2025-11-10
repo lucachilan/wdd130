@@ -21,7 +21,7 @@ nav a {
 }
 
 h1 {
-    color: black;
+    color: blue;
 }
 
 main img {
@@ -42,15 +42,18 @@ p {
 aside {
     width: 20em;
     text-align: center;
-    position: relative;
+    position: relative; 
 }
 
 aside h2 {
     position: absolute;
-    top: 50px;
-    left: 200px;
+    z-index: 1;
+    top: 45px;
+    left: 127px;
 }
+
 aside img {
+    z-index: 0;
     width: 200px;
     height: auto;
 }
