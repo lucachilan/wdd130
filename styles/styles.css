@@ -30,7 +30,7 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px #ddd;
     margin: 0 0 1rem 1rem;
 }
 
