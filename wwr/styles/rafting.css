@@ -33,6 +33,12 @@ header img {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: #fff;
 }
 
 
@@ -55,15 +61,6 @@ nav, p, section, article {
     height: auto;
 }
 
-h1, h2 {
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    background-color: var(--accent1-color);
-    color: #fff;
-}
-
 .hero h1 {
     position: absolute;
     opacity: 0.7;
@@ -74,7 +71,6 @@ h1, h2 {
     display: block;
     bottom: 10px;
     background-color: var(--accent1-color);
-    opacity: 70%;
     color: #fff;
 }
 
