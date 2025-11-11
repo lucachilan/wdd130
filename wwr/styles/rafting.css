@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #1259aa; 
-  --secondary-color: #e5f3a8; 
+  --primary-color: #e2f0ff; 
+  /* --secondary-color: #e5f3a8;  */
   --accent1-color: #113746; 
-  --accent2-color: #e9c46a; 
+  /* --accent2-color: #e9c46a;  */
   --heading-font: "Roboto Flex", "Arial", serif;
   --body-font: Arial, Roboto, sans-serif;
 }
@@ -38,7 +38,6 @@ h1, h2 {
     padding: 16px;
     text-align: center;
     background-color: var(--accent1-color);
-    color: #fff;
 }
 
 
