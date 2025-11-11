@@ -1,8 +1,8 @@
 :root {
   --primary-color: #e2f0ff; 
-  /* --secondary-color: #e5f3a8;  */
+  
   --accent1-color: #113746; 
-  /* --accent2-color: #e9c46a;  */
+  
   --heading-font: "Roboto Flex", "Arial", serif;
   --body-font: Arial, Roboto, sans-serif;
 }
@@ -12,6 +12,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 
 body {
     font-family: var(--body-font);
@@ -24,11 +26,10 @@ header, main, footer {
 }
 
 header img {
-    width: 200px;
+    width: 150px;
     padding: 1rem;
 
 }
-
 
 h1, h2 {
     font-family: var(--heading-font);
@@ -40,11 +41,12 @@ h1, h2 {
     background-color: var(--accent1-color);
 }
 
-
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
+
+/* classes */
 
 .socialmedia a {
     text-decoration: none;
